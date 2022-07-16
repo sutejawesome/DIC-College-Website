@@ -1,0 +1,134 @@
+body{
+    background-color: 	#F0FFFF;
+}
+.hero{
+  background-image: url('hero.jpg');
+  background-repeat: no-repeat;
+  height: 719px;
+ width: 100%;
+}
+
+ h1{
+   font-size: 75px;
+   color: #F9F7F7;
+   font-family:Stanford;
+   text-align: center;
+   position: absolute;
+top: 72%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+h2{
+  color:  #112D4E;
+  font-size: 35px;
+}
+img{
+}
+
+nav{
+  background-color: #112D4E;
+  margin-top: 0px;
+}
+
+hr{
+  margin-top: 24px;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 10%;
+  border-color: #3F72AF;
+}
+
+ul{
+  background-color: #112D4E;
+  margin-top: 0px;
+
+}
+li, .nav{
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  padding: 4px;
+}
+
+li:hover{
+  background-color: #3F72AF;
+}
+
+table{
+  color: #112D4E;
+  background-color: #F0F8FF;
+    width: 80%;
+      border-radius: 10px;
+}
+table, td, th{
+  border: 0.4px solid #DBE2EF;
+  border-collapse: collapse;
+  padding: 5px;
+  padding-left: 20px;
+  font-size: 20px;
+  color: #3F72AF;
+  text-align: center justify;
+}
+
+th{
+  color: darkblue;
+}
+
+
+form{
+  width: 80%;
+  background-color: Gainsboro;
+  text-align: left;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+input, select, textarea{
+  margin: 8px;
+  font-size: 20px;
+}
+
+
+label{
+  display: block;
+}
+.campus-tour{
+  height: 900px;
+  width: 100%;
+}
+.SF{
+    background-color: #F0F8FF;
+}
+
+.H{
+  font-size: 20px;
+}
+.staff{
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-right: 5px dotted grey;
+  padding-right: 20px;
+  color:  #112D4E;
+}
+
+.college_rank{
+  width: 100%;
+  height: 900px;
+}
+.icon{
+  background-color: #112D4E;
+  height: 50px;
+}
+.icons{
+  position: absolute;
+  right: 10px;
+
+}
