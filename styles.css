@@ -1,50 +1,60 @@
-body{
-    background-color: 	#F0FFFF;
+body {
+  background-color: #F0FFFF;
 }
-.hero{
-  background-image: url('hero.jpg');
+
+.hero {
+  background-image: url('uni.png');
   background-repeat: no-repeat;
-  height: 719px;
- width: 100%;
+  height: 630px;
+  width: 100%;
 }
 
- h1{
-   font-size: 75px;
-   color: #F9F7F7;
-   font-family:Stanford;
-   text-align: center;
-   position: absolute;
-top: 72%;
-left: 50%;
-transform: translate(-50%, -50%);
-}
-
-h2{
-  color:  #112D4E;
-  font-size: 35px;
-}
-img{
-}
-
-nav{
-  background-color: #112D4E;
+h1 {
+  font-size: 75px;
+  color: #F9F7F7;
+  font-family: Stanford;
+  text-align: center;
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 3px 3px #112D4E;
   margin-top: 0px;
 }
 
-hr{
+h2 {
+  color: #112D4E;
+  font-size: 35px;
+}
+
+img {}
+
+nav {
+  background-color: #112D4E;
+  text-align: center;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+ul {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+hr {
   margin-top: 24px;
   border-style: dotted none none none;
   border-width: 5px;
-  width: 10%;
+  width: 8%;
   border-color: #3F72AF;
 }
 
-ul{
+ul {
   background-color: #112D4E;
   margin-top: 0px;
-
 }
-li, .nav{
+
+li, .nav {
   display: inline-block;
   font-size: 20px;
   color: white;
@@ -53,19 +63,22 @@ li, .nav{
   margin-right: 10px;
   font-weight: bold;
   padding: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
-li:hover{
+li:hover {
   background-color: #3F72AF;
 }
 
-table{
+table {
   color: #112D4E;
   background-color: #F0F8FF;
-    width: 80%;
-      border-radius: 10px;
+  width: 80%;
+  border-radius: 10px;
 }
-table, td, th{
+
+table, td, th {
   border: 0.4px solid #DBE2EF;
   border-collapse: collapse;
   padding: 5px;
@@ -75,12 +88,11 @@ table, td, th{
   text-align: center justify;
 }
 
-th{
+th {
   color: darkblue;
 }
 
-
-form{
+form {
   width: 80%;
   background-color: Gainsboro;
   text-align: left;
@@ -90,45 +102,50 @@ form{
   font-size: 20px;
 }
 
-input, select, textarea{
+input, select, textarea {
   margin: 8px;
   font-size: 20px;
+  resize: vertical;
+  width: 80%;
 }
 
-
-label{
+label {
   display: block;
 }
-.campus-tour{
+
+.campus-tour {
   height: 900px;
   width: 100%;
 }
-.SF{
-    background-color: #F0F8FF;
+
+.SF {
+  background-color: #F0F8FF;
 }
 
-.H{
-  font-size: 20px;
+.H {
+  font-size: 22px;
 }
-.staff{
+
+.staff {
   display: inline-block;
   margin-left: 15px;
   margin-right: 15px;
   border-right: 5px dotted grey;
   padding-right: 20px;
-  color:  #112D4E;
+  color: #112D4E;
 }
 
-.college_rank{
+.college_rank {
   width: 100%;
   height: 900px;
 }
-.icon{
+
+.icon {
   background-color: #112D4E;
   height: 50px;
 }
-.icons{
+
+.icons {
   position: absolute;
   right: 10px;
-
 }
