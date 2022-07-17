@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/49824b7ba5.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
-    <title>Sutej University</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-    <center>
-    <nav>
-      <ul>
-        <li><a class="nav" href="#">Home</a></li>
-        <li><a class="nav" href="#">Students</a></li>
-        <li><a class="nav"  href="#">Faculty</a></li>
-        <li><a class="nav" href="#">Academics</a></li>
-        <li><a  class="nav" href="#">Campus Life</a></li>
-        <li><a class="nav" href="#">Resesarch</a></li>
-        <li><a class="nav" href="#">Events</a></li>
-        <li><a class="nav" href="#">About</a></li>
-      </ul>
-    </nav>
-    </center>
-      </header>
-    <div class="hero">
-    <!--<img src="hero.jpg" alt="hero-image" width="100%">-->
-      <h1 class="heading">SUTEJ UNIVERSITY</h1>
 
-    </div>
-    <hr>
-    <center>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/49824b7ba5.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Sutej University</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+  <nav>
+    <ul>
+      <li><a class="nav" href="#">Home</a></li>
+      <li><a class="nav" href="#">Students</a></li>
+      <li><a class="nav" href="#">Faculty</a></li>
+      <li><a class="nav" href="#">Academics</a></li>
+      <li><a class="nav" href="#">Campus Life</a></li>
+      <li><a class="nav" href="#">Resesarch</a></li>
+      <li><a class="nav" href="#">Events</a></li>
+      <li><a class="nav" href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <!--<img src="hero.jpg" alt="hero-image" width="100%">-->
+    <h1 class="heading">SUTEJ UNIVERSITY</h1>
+  </div>
+
+  <hr class="below-hero">
+  <center>
     <table>
-      <caption><h2>Seat Matrix</h2></caption>
+      <caption>
+        <h2>Seat Matrix</h2>
+      </caption>
       <tr>
         <th style="60%">Branch</th>
         <th>Seat Pool</th>
@@ -107,7 +109,7 @@
         <td>19</td>
       </tr>
       <tr>
-        <td colspan="3"><i>5-Year M.E/M.Tech Course</i></td>
+        <td colspan="3" style="text-align=" center"><i>5-Year M.E/M.Tech Course</i></td>
       </tr>
       <tr>
         <td rowspan="2">Chemical Engineering </td>
@@ -139,27 +141,60 @@
 
     </table>
     <hr>
-  <h2>Contact form</h2>
+    <h2>Contact form</h2>
     <form class="" action="index.html" method="post">
 
-      <label for="" >&#128100; First Name</label>
+      <label for="">&#128100; First Name</label>
       <input type="text" placeholder="John" name="" value="">
-      <label for="" >&#128100; Last Name</label>
+      <label for="">&#128100; Last Name</label>
       <input type="text" placeholder="Walter" name="" value="">
       <label for=""><i class="fas fa-flag"></i> Country</label>
       <select class="country" name="">
         <option value="">India</option>
       </select>
 
-        <label for="State/Union Territory"><i class="fas fa-city"></i> State/Union Territory: </label>
-<select class="States/UT" name="">
-          <option value="" disabled="">Please select...</option><option value="AN">Andaman and Nicobar Islands</option><option value="AP">Andhra Pradesh</option><option value="AR">Arunachal Pradesh</option><option value="AS">Assam</option><option value="BR">Bihar</option><option value="CH">Chandigarh</option>
-          <option value="CT">Chhattisgarh</option><option value="DN">Dadra and Nagar Haveli</option><option value="DD">Daman and Diu</option><option value="DL">Delhi</option><option value="GA">Goa</option><option value="GJ">Gujarat</option><option value="HR">Haryana</option><option value="HP">Himachal Pradesh
-          </option><option value="JK">Jammu and Kashmir</option><option value="JH">Jharkhand</option><option value="KA">Karnataka</option><option value="KL">Kerala</option><option value="LA">Ladakh</option><option value="LD">Lakshadweep</option><option value="MP">Madhya Pradesh</option>
-          <option value="MH">Maharashtra</option><option value="MN">Manipur</option><option value="ML">Meghalaya</option><option value="MZ">Mizoram</option><option value="NL">Nagaland</option><option value="OR">Odisha</option><option value="PY">Puducherry</option>
-          <option value="PB">Punjab</option><option value="RJ">Rajasthan</option><option value="SK">Sikkim</option><option value="TN">Tamil Nadu</option><option value="TG">Telangana</option><option value="TR">Tripura</option><option value="UP">Uttar Pradesh</option>
-          <option value="UT">Uttarakhand</option><option value="WB">West Bengal</option>
-          </select>
+      <label for="State/Union Territory"><i class="fas fa-city"></i> State/Union Territory: </label>
+      <select class="States/UT" name="">
+        <option value="" disabled="">Please select...</option>
+        <option value="AN">Andaman and Nicobar Islands</option>
+        <option value="AP">Andhra Pradesh</option>
+        <option value="AR">Arunachal Pradesh</option>
+        <option value="AS">Assam</option>
+        <option value="BR">Bihar</option>
+        <option value="CH">Chandigarh</option>
+        <option value="CT">Chhattisgarh</option>
+        <option value="DN">Dadra and Nagar Haveli</option>
+        <option value="DD">Daman and Diu</option>
+        <option value="DL">Delhi</option>
+        <option value="GA">Goa</option>
+        <option value="GJ">Gujarat</option>
+        <option value="HR">Haryana</option>
+        <option value="HP">Himachal Pradesh
+        </option>
+        <option value="JK">Jammu and Kashmir</option>
+        <option value="JH">Jharkhand</option>
+        <option value="KA">Karnataka</option>
+        <option value="KL">Kerala</option>
+        <option value="LA">Ladakh</option>
+        <option value="LD">Lakshadweep</option>
+        <option value="MP">Madhya Pradesh</option>
+        <option value="MH">Maharashtra</option>
+        <option value="MN">Manipur</option>
+        <option value="ML">Meghalaya</option>
+        <option value="MZ">Mizoram</option>
+        <option value="NL">Nagaland</option>
+        <option value="OR">Odisha</option>
+        <option value="PY">Puducherry</option>
+        <option value="PB">Punjab</option>
+        <option value="RJ">Rajasthan</option>
+        <option value="SK">Sikkim</option>
+        <option value="TN">Tamil Nadu</option>
+        <option value="TG">Telangana</option>
+        <option value="TR">Tripura</option>
+        <option value="UP">Uttar Pradesh</option>
+        <option value="UT">Uttarakhand</option>
+        <option value="WB">West Bengal</option>
+      </select>
 
       <label for=""><i class="fa fa-envelope"></i> E-mail</label>
       <input placeholder="abc@email.com" type="email" name="" value="">
@@ -169,82 +204,88 @@
       <input type="number" name="" value="" placeholder="0123456789">
       <label for="">Message: </label>
       <textarea name="message" rows="8" cols="50">Type your message here...</textarea>
-  </form>
-</center>
-<hr>
-  <h2><center>Campus University Tour</center></h2>
-      <iframe class="campus-tour" width="560" height="315" src="https://www.youtube.com/embed/_Nq4Z5i7lcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </form>
+  </center>
+  <hr>
+  <h2>
+    <center>Campus University Tour</center>
+  </h2>
+  <iframe class="campus-tour" width="560" height="315" src="https://www.youtube.com/embed/_Nq4Z5i7lcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
 
-<hr>
+  <hr>
   <h2>Staff Information</h2>
   <div class="SF">
     <div class="staff">
-  <h3 class="H">Head of Department </h3>
-  <h3>James Smith</h3>
-  <p><span class="material-icons">call</span> +91 9988776655</p>
-  <p><span class="material-icons">email</span> xyz@gmail.com</p>
-</div>
+      <h3 class="H">Head of Department </h3>
+      <h3>James Smith</h3>
+      <p><span class="material-icons">call</span> +91 9988776655</p>
+      <p><span class="material-icons">email</span> xyz@gmail.com</p>
+    </div>
 
-<div class="staff">
-<h3 class="H">Administration </h3>
-<h3>Charles Smith</h3>
-<p><span class="material-icons">call</span> +91 9588776655</p>
-<p><span class="material-icons">email</span> asd@gmail.com</p>
-</div>
+    <div class="staff">
+      <h3 class="H">Administration </h3>
+      <h3>Charles Smith</h3>
+      <p><span class="material-icons">call</span> +91 9588776655</p>
+      <p><span class="material-icons">email</span> asd@gmail.com</p>
+    </div>
 
-<div class="staff">
-<h3 class="H">Academics </h3>
-<h3>Maria Rodriguez</h3>
-<p><span class="material-icons">call</span> +91 9488776655</p>
-<p><span class="material-icons">email</span> jkl@gmail.com</p>
-</div>
+    <div class="staff">
+      <h3 class="H">Academics </h3>
+      <h3>Maria Rodriguez</h3>
+      <p><span class="material-icons">call</span> +91 9488776655</p>
+      <p><span class="material-icons">email</span> jkl@gmail.com</p>
+    </div>
 
-<div class="staff">
-<h3 class="H">Lab </h3>
-<h3>James Johnson</h3>
-<p><span class="material-icons">call</span> +91 9288776655</p>
-<p><span class="material-icons">email</span> abc@gmail.com</p>
-</div>
+    <div class="staff">
+      <h3 class="H">Lab </h3>
+      <h3>James Johnson</h3>
+      <p><span class="material-icons">call</span> +91 9288776655</p>
+      <p><span class="material-icons">email</span> abc@gmail.com</p>
+    </div>
 
-<div class="staff">
-<h3 class="H">System Administrator </h3>
-<h3>Michael Scott</h3>
-<p><span class="material-icons">call</span> +91 9388776655</p>
-<p><span class="material-icons">email</span> zxc@gmail.com</p>
-</div>
+    <div class="staff">
+      <h3 class="H">System Administrator </h3>
+      <h3>Michael Scott</h3>
+      <p><span class="material-icons">call</span> +91 9388776655</p>
+      <p><span class="material-icons">email</span> zxc@gmail.com</p>
+    </div>
 
-<div class="staff">
-<h3 class="H">Stores </h3>
-<h3>Mary Johnson</h3>
-<p><span class="material-icons">call</span> +91 188776655</p>
-<p><span class="material-icons">email</span> rty@gmail.com</p>
-</div>
+    <div class="staff">
+      <h3 class="H">Stores </h3>
+      <h3>Mary Johnson</h3>
+      <p><span class="material-icons">call</span> +91 188776655</p>
+      <p><span class="material-icons">email</span> rty@gmail.com</p>
+    </div>
 
-<div class="staff">
-<h3 class="H">IT Department </h3>
-<h3>Nina Green</h3>
-<p><span class="material-icons">call</span> +91 488776655</p>
-<p><span class="material-icons">email</span> bnm@gmail.com</p>
-</div>
-</div>
-<hr>
+    <div class="staff">
+      <h3 class="H">IT Department </h3>
+      <h3>Nina Green</h3>
+      <p><span class="material-icons">call</span> +91 488776655</p>
+      <p><span class="material-icons">email</span> bnm@gmail.com</p>
+    </div>
+  </div>
+  <hr>
 
-<center>
-  <h2>College Rankings</h2></center>
-<iframe class="college_rank" width="560" height="315" src="https://www.youtube.com/embed/Y8Lk3Gi-ugo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br><br>
+  <center>
+    <h2>College Rankings</h2>
+  </center>
+  <iframe class="college_rank" width="560" height="315" src="https://www.youtube.com/embed/Y8Lk3Gi-ugo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <br><br>
 
-<div class="icon">
-  <div class="icons">
-<a class="sm" href="https://www.facebook.com/" target="_blank">
-    <img src="fb.png" alt="facebook" width="36px"></a>
-  <a class="sm" href="https://www.instagram.com/?hl=en" target="_blank">
-    <img src="insta.png" alt="instagram" width="45px"></a>
-    <a class="sm" href="https://twitter.com/" target="_blank">
-      <img src="tw.png" alt="twitter" width="37px"></a>
+  <div class="icon">
+    <div class="icons">
+      <a class="sm" href="https://www.facebook.com/" target="_blank">
+        <img src="fb.png" alt="facebook" width="36px"></a>
+      <a class="sm" href="https://www.instagram.com/?hl=en" target="_blank">
+        <img src="insta.png" alt="instagram" width="45px"></a>
+      <a class="sm" href="https://twitter.com/" target="_blank">
+        <img src="tw.png" alt="twitter" width="37px"></a>
       <a class="sm" href="https://www.youtube.com/" target="_blank">
         <img src="youtube.png" alt="youtube" width="50px"></a>
-          </div>
-          </div>
-  </body>
+    </div>
+  </div>
+</body>
+
 </html>
