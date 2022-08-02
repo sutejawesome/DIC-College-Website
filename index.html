@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="index.js">
+
+  </script>
   <script src="https://kit.fontawesome.com/49824b7ba5.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Sutej University</title>
@@ -11,18 +14,17 @@
 </head>
 
 <body>
-
-
   <nav>
     <ul>
       <li><a class="nav" href="#">Home</a></li>
-      <li><a class="nav" href="#">Students</a></li>
-      <li><a class="nav" href="#">Faculty</a></li>
-      <li><a class="nav" href="#">Academics</a></li>
-      <li><a class="nav" href="#">Campus Life</a></li>
-      <li><a class="nav" href="#">Resesarch</a></li>
-      <li><a class="nav" href="#">Events</a></li>
-      <li><a class="nav" href="#">About</a></li>
+      <li><a class="nav" href="#stats">Stats</a></li>
+      <li><a class="nav" href="#faq_page">FAQ</a></li>
+      <li><a class="nav" href="#campus_tour">Campus Life</a></li>
+      <li><a class="nav" href="#login">Student Login</a></li>
+      <li><a class="nav" href="#reviews">Reviews</a></li>
+      <li><a class="nav" href="#staff_info">Staff</a></li>
+      <li><a class="nav" href="#queryForm">Query</a></li>
+      <li><a class="nav" href="#contactForm">Contact Us</a></li>
     </ul>
   </nav>
 
@@ -31,9 +33,9 @@
     <h1 class="heading">SUTEJ UNIVERSITY</h1>
   </div>
 
-  <hr class="below-hero">
+  <hr class="main_hr">
   <center>
-    <table>
+    <table id="stats">
       <caption>
         <h2>Seat Matrix</h2>
       </caption>
@@ -109,7 +111,7 @@
         <td>19</td>
       </tr>
       <tr>
-        <td colspan="3" style="text-align=" center"><i>5-Year M.E/M.Tech Course</i></td>
+        <td colspan="3" style="text-align= center"><i>5-Year M.E/M.Tech Course</i></td>
       </tr>
       <tr>
         <td rowspan="2">Chemical Engineering </td>
@@ -140,21 +142,21 @@
       </tr>
 
     </table>
-    <hr>
-    <h2>Contact form</h2>
-    <form class="" action="index.html" method="post">
+    <hr class="main_hr">
+    <h2 id="contactForm">Contact form</h2>
+    <form class="contactForm" action="index.html" method="post">
 
-      <label for="">&#128100; First Name</label>
-      <input type="text" placeholder="John" name="" value="">
-      <label for="">&#128100; Last Name</label>
-      <input type="text" placeholder="Walter" name="" value="">
-      <label for=""><i class="fas fa-flag"></i> Country</label>
-      <select class="country" name="">
+      <label class="form1_label" for="">&#128100; First Name</label>
+      <input class="form1" type="text" placeholder="John" name="" value="">
+      <label class="form1_label" for="">&#128100; Last Name</label>
+      <input class="form1" type="text" placeholder="Walter" name="" value="">
+      <label class="form1_label" for=""><i class="fas fa-flag"></i> Country</label>
+      <select class="form1" class="country" name="">
         <option value="">India</option>
       </select>
 
-      <label for="State/Union Territory"><i class="fas fa-city"></i> State/Union Territory: </label>
-      <select class="States/UT" name="">
+      <label class="form1_label" for="State/Union Territory"><i class="fas fa-city"></i> State/Union Territory: </label>
+      <select class="form1" class="States/UT" name="">
         <option value="" disabled="">Please select...</option>
         <option value="AN">Andaman and Nicobar Islands</option>
         <option value="AP">Andhra Pradesh</option>
@@ -196,25 +198,25 @@
         <option value="WB">West Bengal</option>
       </select>
 
-      <label for=""><i class="fa fa-envelope"></i> E-mail</label>
-      <input placeholder="abc@email.com" type="email" name="" value="">
-      <label for="dob">Date of Birth</label>
-      <input type="date" name="" value="">
-      <label for="number"><span class="material-icons">phone</span>Phone Number: </label>
-      <input type="number" name="" value="" placeholder="0123456789">
-      <label for="">Message: </label>
-      <textarea name="message" rows="8" cols="50">Type your message here...</textarea>
+      <label class="form1_label" for=""><i class="fa fa-envelope"></i> E-mail</label>
+      <input class="form1" placeholder="abc@email.com" type="email" name="" value="">
+      <label class="form1_label" for="dob">Date of Birth</label>
+      <input class="form1" type="date" name="" value="">
+      <label class="form1_label" for="number"><span class="material-icons">phone</span>Phone Number: </label>
+      <input class="form1" type="number" name="" value="" placeholder="0123456789">
+      <label class="form1_label" for="">Message: </label>
+      <textarea class="form1" name="message" rows="8" cols="50">Type your message here...</textarea>
     </form>
   </center>
-  <hr>
-  <h2>
-    <center>Campus University Tour</center>
+  <hr class="main_hr">
+  <h2 id="campus_tour">
+    <center>Campus University Tour
   </h2>
   <iframe class="campus-tour" width="560" height="315" src="https://www.youtube.com/embed/_Nq4Z5i7lcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
-
-  <hr>
-  <h2>Staff Information</h2>
+  </center>
+  <hr class="main_hr">
+  <h2 id="staff_info">Staff Information</h2>
   <div class="SF">
     <div class="staff">
       <h3 class="H">Head of Department </h3>
@@ -265,7 +267,7 @@
       <p><span class="material-icons">email</span> bnm@gmail.com</p>
     </div>
   </div>
-  <hr>
+  <hr class="main_hr">
 
   <center>
     <h2>College Rankings</h2>
@@ -273,6 +275,143 @@
   <iframe class="college_rank" width="560" height="315" src="https://www.youtube.com/embed/Y8Lk3Gi-ugo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
   <br><br>
+  <hr class="main_hr">
+  <div class="form2" id="queryForm">
+    <center>
+      <h2>Query Form</h2>
+      <form class="contactForm" name="query_form" onsubmit="return validateForm()" method="post">
+        <label class="form1_label" for="">Name</label>
+        <input class="form1" type="text" name="name">
+        <label class="form1_label" for="">E-mail</label>
+        <input class="form1" type="email" name="email" value="">
+        <label class="form1_label" for="">Phone No</label>
+        <input class="form1" type="number" name="contact_number" value="">
+        <label class="form1_label" for="">Query</label>
+        <textarea class="form1" name="query" rows="8" cols="80" placeholder="Write your query here..."></textarea>
+        <input class="form1_label" id="submit" type="submit" value="Submit">
+    </center>
+    </form>
+  </div>
+
+  <hr class="main_hr">
+  <center>
+
+
+    <div class="faqPage" id="faq_page">
+      <h2>FAQ</h2>
+      <h3 class="faq">Does this University offer B.Sc in Programming & Data Science on-campus? </h3>
+      <button type="button" name="button" onclick="faq_pg1()">+</button>
+      <p class="faq_body" id="faq1">No, there is no equivalent on-campus version.This University has carefully curated this exclusively
+        as an online program. </p>
+      <hr class="faq_hr">
+      <h3 class="faq">Will those enrolled to this program have access to University campus facilities? </h3>
+      <button type="button" name="button" onclick="faq_pg2()">+</button>
+      <p class="faq_body" id="faq2">Due to limitations of campus facilities and students being spread out geographically,
+        learners enrolled in the program will not have access to IITM campus facilities. </p>
+      <hr class="faq_hr">
+      <h3 class="faq">What is the language of instruction for these courses? Are they available in other regional languages? </h3>
+      <button type="button" name="button" onclick="faq_pg3()">+</button>
+      <p class="faq_body" id="faq3">All our program courses are taught in English. Hence, we expect a minimum proficiency in English language to
+        participate in the program. </p>
+      <hr class="faq_hr">
+      <h3 class="faq">How much time do I need to spend on a course per day? </h3>
+      <button type="button" name="button" onclick="faq_pg4()">+</button>
+      <p class="faq_body" id="faq4">The expected effort to do well in one course is about 10 hours per week.</p>
+      <hr class="faq_hr">
+      <h3 class="faq">How many courses can I complete in a year? </h3>
+      <button type="button" name="button" onclick="faq_pg5()">+</button>
+      <p class="faq_body" id="faq5">
+        There are 3 terms in a year. Learner may be allowed to register for a maximum of 2 - 4 courses
+        in a term depending on their performance in previous exams and their preferred pace of learning.
+        Note that all courses of one level need to be completed before registering for courses in the
+        next level, and all prerequisites of a course need to be completed before registering for that course.
+      </p>
+    </div>
+  </center>
+
+  <hr class="main_hr">
+  <center>
+    <h2 id="reviews">Reviews</h2>
+    <br>
+    <div class="review" id="rev">
+      <div class='review_content'>
+        <img class="review_image" src="person_1.jpg" width=300px>
+
+        <h3 class="review_heading">Robert Black</h3>
+        <p class="review_para">
+          This is the best college in India for engineering. The facilities and infrastructure are very good.
+          <br>Placements: Around 80-85% of students are placed, and some of the students opt for further studies and research. The average salary package offered is 18 LPA. Many students got internships in top companies like Axis Bank, etc. Students
+          can get core as well as non-core jobs.
+          <br>Infrastructure: This college has very high-speed Wi-Fi available in every hostel. Laboratories, classrooms, and the library are well advanced and beautiful. The food served in mess and canteen is very good in taste and variety. The
+          medical facilities are available for everyone. There are also good chances in the field of sports and games.
+          <br>Faculty: Teachers are very helpful, highly qualified, and knowledgeable. The course curriculum is very relevant and useful. The semester exams are a little bit tough but, if students regularly attend classes and tutorials then they will
+          get good marks.
+        </p>
+
+
+      </div>
+
+      <div class='review_content' id="review_2">
+        <img class="review_image" src="person_2.jpg" width="300px">
+        <h3>Alicia White</h3>
+        <p>
+          IIT Bombay is an all-rounder and is a good college in all fields.
+
+          <br>Placements: The academic department of our institute is great. Most of the students got placed in our department. Students go to both the core and non-core companies for placements depending on their personal interests and other
+          factors. All the major recruiting companies like Microsoft, Google, etc., are the top recruiters. They recruit the students from both their core and non-core branches.
+
+          <br>Infrastructure: All the infrastructure and facilities are very good. You will fall in love with infrastructure and facilities. The culture here is very cheerful. All the sports and games facilities are good. You will get all the sports
+          facilities from hostel. You can have a better college life here.
+
+          <br>Faculty: The faculty members are great. All of them are highly qualified and talented. The faculty support you both academically and personally. It is always necessary to maintain your academics along with all the extracurricular
+          activities. The course is relevant, and you must study with good focus.
+        </p>
+
+      </div>
+      <div class='review_content' id="review_3">
+        <img src="person3_.jpg" width="300px" class="review_image">
+        <h3>Maria Hernandez</h3>
+        <p>
+          It is a perfect college for students who really want to get exposure to technology.
+
+          <br>Placements: I will pass out in 2024. I don't have any experience yet, but the placement records are almost the top in the country. The average package offered last year was around 16 LPA, and I am very happy about it.
+
+          <br>Infrastructure: I haven't visited the hostel yet, due to the pandemic. But I saw many photos and spoke with my seniors about this. Their review is awesome. Mess food charges are slightly high, but the food quality is also good. Every
+          hostel has separate grounds and canteens. Our wing group is awesome.
+
+          <br>Faculty: Some of the professors are boring but nice. All the professors are very well qualified, and they have all the knowledge of their fields and subjects. Good subjects are taught in the first year, and I am really enjoying them.
+          The curriculum definitely makes students industry-ready.
+        </p>
+
+      </div>
+
+      <div class="review__button">
+        <button id="prev_button" onclick="previousReview()">
+          < </button>
+
+            <button id="next_button" onclick="nextReview()">
+              >
+            </button>
+      </div>
+    </div>
+
+
+  </center>
+  <hr class="main_hr">
+  <center>
+    <h2 id="login">Login</h2>
+    <form class="login" action="index.html" method="post">
+      <label class="login_label" for="username">Username</label>
+      <input class="form1" type="text" placeholder="John Walter" name="" value="">
+      <label class="login_label" for="year">Year</label>
+      <input class="form1" type="number" placeholder="0123456789" name="" value="">
+      <label class="login_label" for="roll">Roll Number</label>
+      <input class="form1" type="number" placeholder="123456" name="" value=""><br><br>
+      <input id="submit2" type="submit" name="" value="Submit" onclick="setCookie()">
+    </form>
+
+  </center>
+
 
   <div class="icon">
     <div class="icons">
@@ -286,6 +425,8 @@
         <img src="youtube.png" alt="youtube" width="50px"></a>
     </div>
   </div>
+
+
 </body>
 
 </html>
